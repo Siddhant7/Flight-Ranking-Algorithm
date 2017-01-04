@@ -45,14 +45,24 @@ Data Dictionary:
 
 This is flight booking data which is consisting transactions as record. 
 
-Each record has the following features. 
+Each record has the following features:
+
 Category :- Denoting if it’s domestic or international booking. Category is domestic if flight is taking-off and landing-to any of Indian city.
+
 Sector :- A sector is term used for showing two connected airports. Like you are travelling from Delhi to Bangalore then del-blr(airport iata code) is sector. Roundtrip sectors are denoted with -r suffix(blr-del-r).
+
 Transactionid :- It is unique id for a transaction.
+
 Duration :- Duration of journey(in minutes).
+
 Travel date :- Onward flight departure datetime.
+
 Stopovers :-  Intermediate stops(layovers). Say if you are flying from Bangalore to Jammu via Delhi (i. e. Bangalore->Delhi and Delhi->Jammu) then Delhi is your stopover. In case of more than one stopover the field will contain stopovers in comma separated fashion. Special value NA denotes 0 stops(direct flight).
+
 Days to journey :-Difference between the travel date and booking date. 
+
 Roundtrip :- Passenger going from A to B and returning back to A from B.
+
 Total fare :- Total fare of journey.
+
 Flight Number :- Unique identification number for particular flight. 
