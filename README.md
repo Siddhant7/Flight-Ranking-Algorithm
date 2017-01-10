@@ -2,7 +2,7 @@
 
 Problem Statement:
 
-Goibibo.com is a flight aggregator, aggregating a lot of flights from different providers when a user searches in real-time. At times our backend engine generates more than 200 flight combinations for a particular sector(say BOM-DEL) and journey date. 
+A company ABC is a flight aggregator, aggregating a lot of flights from different providers when a user searches in real-time. At times our backend engine generates more than 200 flight combinations for a particular sector(say BOM-DEL) and journey date. 
 
 For better user experience we would like to remove some flights from the combination which have very less probability of getting booked before we present the search results to a user. 
 
